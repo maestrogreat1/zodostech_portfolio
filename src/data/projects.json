@@ -1,6 +1,6 @@
 [
     {
-      "title": "Project A",
+      "title": "Elimu",
       "imageSrc": "projects/elimu1.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
@@ -16,7 +16,7 @@
       "source": "https://www.github.com"
     },
     {
-      "title": "Project C",
+      "title": "Vita Green Nigeria",
       "imageSrc": "projects/vitanaija.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
