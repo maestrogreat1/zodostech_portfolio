@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Excellent User",
+      "organisation": "Value and Experience",
+      "startDate": "Sept, 2022",
+      "endDate": "Present",
+      "experiences": ["We value our users, therefore we apply the latest standards using advanced methods with great user accessibility to ensure excellent user experience accross all of our platforms."],
+      "imageSrc": "history/ux.png"
+    },
+    {
+      "role": "High Performance",
+      "organisation": "Using Cutting Edge Technology",
+      "startDate": "Aug, 2021",
+      "endDate": "Aug, 2022",
+      "experiences": ["We mitigate the diffrences between native and hybrid environments using cross-platform development, dual-track agile and DevOps methodologies, providing you a solution that is both cutting-edge and user friendly."],
+      "imageSrc": "history/bar-chart.png"
+    }
+  ]
+  

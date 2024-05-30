@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Project A",
+      "imageSrc": "projects/elimu1.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "https://www.e-limu.org/",
+      "source": "https://www.e-limu.org/"
+    },
+    {
+      "title": "GymBud App",
+      "imageSrc": "projects/gymbud.png",
+      "description": "This project was made to connect gym and workout enthusiasts within a certain geo-location in a very secure manner.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Project C",
+      "imageSrc": "projects/vitanaija.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node"],
+      "demo": "http://vitagreennigeria.com",
+      "source": "http://vitagreennigeria.com"
+    }
+  ]
+  

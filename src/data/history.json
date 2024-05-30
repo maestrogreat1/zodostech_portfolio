@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Impeccable ",
+      "organisation": "Product Delivery",
+      "startDate": "Sept, 2022",
+      "endDate": "Present",
+      "experiences": ["Through our unique Continuous Discovery / Continuous Delivery approach, we ensure you are constantly evaluating user needs and building features and products they need."],
+      "imageSrc": "history/delivery.png"
+    },
+    {
+      "role": "Expert and",
+      "organisation": "Timely Execution",
+      "startDate": "Aug, 2021",
+      "endDate": "Aug, 2022",
+      "experiences": ["We use advanced predictability and performance frameworks such as Monte Carlo to help you achieve your development milestones ahead of time, ensuring high certainty and accelerating time to market."],
+      "imageSrc": "history/clock.png"
+    }
+  ]
+  
