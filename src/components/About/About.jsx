@@ -13,7 +13,7 @@ const About = () => {
             <div className={styles.aboutItemtext}>
                 <h3>Fullstack Development</h3>
                 <p>
-                    At ZodosTech Solutions, we specialize in developing customized software and web applications, implementing robust IT infrastructure and providing comprehensive cybersecurity services. Our team of experienced engineers, developers and consultants work closely with clients to understand thier objectives and deliver tailored solutions that drive tangible results. 
+                    At ZodosTech Solutions, we specialize in developing customized software and web applications, implementing robust IT infrastructure.
                 </p>
             </div>
         </li>
@@ -22,7 +22,7 @@ const About = () => {
             <div className={styles.aboutItemtext}>
                 <h3>Cloud Computing</h3>
                 <p>
-                    From cloud computing and data analytics to network security and digital transformation, we offer a full spectrum of services designes to address the complex challenges facing modern businesses. With a proven track record of success and a dedication to customer satisfaction, ZodosTech Solutions is your trusted partner for all your technology needs. 
+                    From cloud computing and data analytics to network security and digital transformation, we offer a full spectrum of services designed to address the complex challenges facing modern businesses. 
                 </p>
             </div>
         </li>
@@ -40,7 +40,7 @@ const About = () => {
             <div className={styles.aboutItemtext}>
                 <h3>SEO and Digital Marketing Services</h3>
                 <p>
-                   Take advantage of our premuim SEO services and get your business on the map in rapid time. Our experts with years of valid experience will help you access the best of quality reach and conversions for any kind of business module you may be working with. 
+                   Take advantage of our premuim SEO services and get your business on the map in rapid time. 
                 </p>
             </div>
         </li>

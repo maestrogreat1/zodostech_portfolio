@@ -31,15 +31,16 @@ export const Contact = () => {
         <h2>Contact</h2>
         <p>Feel free to reach out</p>
       </div>
+      <div className={styles.form}>
       <div className={styles.link}>
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
-          <input type="text" name="user_name" />
+          <input type="text" name="user_name" placeholder="Enter your name"/>
           <label>Email</label>
-          <input type="email" name="user_email" />
+          <input type="email" name="user_email" placeholder="Enter your email address"/>
           <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
+          <textarea name="message" placeholder="Tell us your requests"/>
+          <input type="submit" value="Send"/>
         </form>
       </div>
       {/* <ul className={styles.links}>
@@ -58,6 +59,7 @@ export const Contact = () => {
           <a href="https://www.Github.com">github.com</a>
         </li>
       </ul> */}
+      </div>
     </footer>
   );
 };

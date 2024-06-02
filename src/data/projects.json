@@ -2,7 +2,7 @@
     {
       "title": "Elimu",
       "imageSrc": "projects/elimu1.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This is a project that improves learning for kids.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.e-limu.org/",
       "source": "https://www.e-limu.org/"
@@ -18,7 +18,7 @@
     {
       "title": "Vita Green Nigeria",
       "imageSrc": "projects/vitanaija.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This is a project made to connect people to open job vacancies.",
       "skills": ["React", "Express", "Node"],
       "demo": "http://vitagreennigeria.com",
       "source": "http://vitagreennigeria.com"

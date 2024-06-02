@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        ZodosTech
+      <img src={getImageUrl ("logo/logo.png")} alt="logo image of zodo" className={styles.logoImg}/>
       </a>
       <div className={styles.menu}>
         <img

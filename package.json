@@ -13,6 +13,11 @@
     "@emailjs/browser": "^4.3.3",
     "@fontsource/outfit": "^5.0.12",
     "@fontsource/roboto": "^5.0.12",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
