@@ -50,6 +50,7 @@
   margin-bottom: 52px;
   align-items: center;
   justify-content: center;
+  line-height: 1.4;
 }
 
 .contactBtn {
@@ -163,5 +164,9 @@
   .contactBtn{
     margin-top: 0;
     margin-bottom: 10%;
+  }
+
+  .container{
+    height: 500px;
   }
 }
