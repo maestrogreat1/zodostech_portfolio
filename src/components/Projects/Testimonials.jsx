@@ -57,15 +57,12 @@ export const Projects = () => {
             <div className="user-info">
               <img src={user_1} alt="" />
               <div>
-                <h3>Pia Curtis</h3>
+                <h3>Ria Khan</h3>
                 <span>XpressTokens UK</span>
               </div>
             </div>
             <p>
-              Choosing to enhance my career with the Berry group is one of the
-              best decisions I've ever made. The supportive community,
-              state-of-the-art facilties and commitment to business excellence
-              have truly exceeded my expectations.
+              Choosing to enhance digital horizons with this firm has been my best decison yet.
             </p>
           </div>
         </li>
@@ -74,15 +71,12 @@ export const Projects = () => {
             <div className="user-info">
               <img src={user_2} alt="" />
               <div>
-                <h3>William Jackson</h3>
-                <span>Khalifa Group, UAE</span>
+                <h3>Will Putt</h3>
+                <span>Flysafe, UAE</span>
               </div>
             </div>
             <p>
-              Choosing to enhance my career with the Berry group is one of the
-              best decisions I've ever made. The supportive community,
-              state-of-the-art facilties and commitment to business excellence
-              have truly exceeded my expectations.
+              They have great customer service and real-time access to every request I need.
             </p>
           </div>
         </li>
@@ -91,15 +85,12 @@ export const Projects = () => {
             <div className="user-info">
               <img src={user_3} alt="" />
               <div>
-                <h3>Anne Stryder</h3>
-                <span>Aims Assets, South Africa</span>
+                <h3>Chris Hunt</h3>
+                <span>Luxberry, SA</span>
               </div>
             </div>
             <p>
-              Choosing to enhance my career with the Berry group is one of the
-              best decisions I've ever made. The supportive community,
-              state-of-the-art facilties and commitment to business excellence
-              have truly exceeded my expectations.
+              I can say for certain that Zodo's Tech is a one stop shop for all my software needs. 
             </p>
           </div>
         </li>
@@ -108,15 +99,12 @@ export const Projects = () => {
             <div className="user-info">
               <img src={user_4} alt="" />
               <div>
-                <h3>Jullian McBridge</h3>
-                <span>Pixel Arts, USA</span>
+                <h3>Juan Lyon</h3>
+                <span>Pines, USA</span>
               </div>
             </div>
             <p>
-              Choosing to enhance my career with the Berry group is one of the
-              best decisions I've ever made. The supportive community,
-              state-of-the-art facilties and commitment to business excellence
-              have truly exceeded my expectations.
+              The design and innovation approach is nothing but the best I have ever seen, cheers!
             </p>
           </div>
         </li>
