@@ -4,17 +4,24 @@ import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
-import Projects from "./components/Projects/Projects";
+import Projects from "./components/Projects/Testimonials";
+import Title from "./components/Title/Title";
 
 function App() {
   return (
     <div className={styles.App}>
       <Navbar />
       <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+      <div className="container">
+      <Title subTitle="About Us" title="Get involved with us" />
+        <About />
+        <Title subTitle="Experience" title="What we offer you" />
+        <Experience />
+        <Title subTitle="Testimonials" title="What our clients say" />
+        <Projects />
+        <Title subTitle="Contact Us" title="Get in touch" />
+        <Contact />
+      </div>
     </div>
   );
 }

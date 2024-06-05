@@ -1,44 +1,60 @@
-import { useState } from "react";
-import React from "react";
-import styles from "./Navbar.module.css";
-import { getImageUrl } from "../../utils,js";
+import React, { useEffect, useState } from "react";
+import "./Navbar.css";
+import logo from '../../image/logo.png'
+import { Link } from "react-scroll";
+import menu_icon from '../../image/menu-icon.png'
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.scrollY > 50 ? setSticky(true) : setSticky(false);
+    });
+  }, []);
+
+  const [mobileMenu, setMobileMenu] = useState(false);
+  const toggleMenu = () => {
+    mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
+  };
+
   return (
-    <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
-      <img src={getImageUrl ("logo/logo.png")} alt="logo image of zodo" className={styles.logoImg}/>
-      </a>
-      <div className={styles.menu}>
-        <img
-          className={styles.menuBtn}
-          src={
-            menuOpen
-              ? getImageUrl("nav/closeIcon.png")
-              : getImageUrl("nav/menuIcon.png")
-          }
-          alt="menu-button"
-          onClick={() => setMenuOpen(!menuOpen)}
-        />
-        <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-          onClick={() => setMenuOpen(false)}
-        >
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <nav className={`container ${sticky ? "dark-nav" : ""}`}>
+      <img src={logo} alt="" className="logo" />
+      <ul className={mobileMenu?'':'hide-mobile-menu'}>
+      <li>
+          <Link to="hero" smooth={true} offset={-310} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} offset={-310} duration={500}>
+            About Us
+          </Link>
+        </li>
+        <li>
+          <Link to="experience" smooth={true} offset={-260} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link to="testimonials" smooth={true} offset={-260} duration={500}>
+            Testimonials
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="contact"
+            smooth={true}
+            offset={-310}
+            duration={500}
+            className="btn"
+          >
+            Contact us
+          </Link>
+        </li>
+      </ul>
+      <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />
     </nav>
   );
 };
