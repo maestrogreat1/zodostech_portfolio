@@ -9,8 +9,8 @@ const Hero = () => {
   return (
     <section className={styles.container} id="hero">
       <div className={styles.content}>
-        <h1 className={styles.title}>ZodosTech Software Solutions</h1>
-        <p className={styles.description}>ZodosTech is a provider of innovative technology solutions tailored to meet the unique needs of businesses across various industries.</p>
+        <h1>ZodosTech Software Solutions</h1>
+        <p>ZodosTech is a provider of innovative technology solutions tailored to meet the unique needs of businesses across various industries.</p>
         <Link to="contact"
             smooth={true}
             offset={-310}
