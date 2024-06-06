@@ -32,18 +32,32 @@ export const Contact = () => {
         <p>Feel free to reach out</p>
       </div>
       <div className={styles.form}>
-      <div className={styles.link}>
-        <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="user_name" placeholder="Enter your name" required/>
-          <label>Email</label>
-          <input type="email" name="user_email" placeholder="Enter your email address" required/>
-          <label>Message</label>
-          <textarea name="message" placeholder="Tell us your requests" required/>
-          <input type="submit" value="Send"/>
-        </form>
-      </div>
-      {/* <ul className={styles.links}>
+        <div className={styles.link}>
+          <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Enter your name"
+              required
+            />
+            <label>Email</label>
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Enter your email address"
+              required
+            />
+            <label>Message</label>
+            <textarea
+              name="message"
+              placeholder="Tell us your requests"
+              required
+            />
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+        {/* <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="email icon" />
           <a href="mailto:myemail@email.com">myemail@email.com</a>

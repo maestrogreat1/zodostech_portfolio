@@ -161,6 +161,7 @@ input[type="submit"] {
         margin-top: 10%;
         margin-right: 0;
         width: 320px;
+        height: 700px;
     }
 }
 
@@ -188,21 +189,25 @@ input[type="submit"] {
     }
     .form{
         width: 350px;
-        padding-top: 50px;
-        height: 600px;
+        padding-top: 30px;
+        height: 750px;
         overflow: hidden;
+        max-width: 350px;
     }
     input[type="submit"] {
-        margin-top: 2%;
+        margin-top: 1%;
         height: 40px;
         font-size: 20px;
         width: 100px;
     }
     input{
         width: 280px;
+        font-size: 16px;
     }
     textarea{
         width: 280px;
         height: 20px;
+        overflow: hidden;
+        font-size: 16px;
     }
 }
