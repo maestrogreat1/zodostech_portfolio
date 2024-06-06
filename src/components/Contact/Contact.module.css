@@ -161,7 +161,6 @@ input[type="submit"] {
         margin-top: 10%;
         margin-right: 0;
         width: 320px;
-        height: 700px;
     }
 }
 
@@ -189,14 +188,14 @@ input[type="submit"] {
     }
     .form{
         width: 350px;
-        padding-top: 30px;
-        height: 750px;
+        padding-top: 50px;
+        height: 600px;
         overflow: hidden;
         max-width: 350px;
     }
     input[type="submit"] {
-        margin-top: 1%;
-        height: 40px;
+        margin-top: 2%;
+        height: 300px;
         font-size: 20px;
         width: 100px;
     }
