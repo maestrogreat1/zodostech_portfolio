@@ -187,11 +187,18 @@ input[type="submit"] {
         width: 350px;
         padding-top: 50px;
         height: 600px;
+        overflow: hidden;
     }
     input[type="submit"] {
         margin-top: 2%;
         height: 40px;
         font-size: 20px;
         width: 100px;
+    }
+    input{
+        width: 280px;
+    }
+    textarea{
+        width: 250px;
     }
 }
