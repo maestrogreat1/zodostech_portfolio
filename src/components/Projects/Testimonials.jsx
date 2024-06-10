@@ -76,7 +76,7 @@ export const Projects = () => {
               </div>
             </div>
             <p>
-              This is a simple kiddies learning app, to build cognitive thinking on a variety of fields spanning from arithmetics to social building curriculum.
+              This is a simple kiddies learning app that helps to build cognitive thinking and brain power in various of fields in real time.
             </p>
           </div>
         </li>
@@ -90,7 +90,7 @@ export const Projects = () => {
               </div>
             </div>
             <p>
-              A vast community of deep thinkers, interested in growth and building humane values and consistently seeking more knowledge. 
+              A vast community of deep thinkers, interested in growth and building humane values and consistent knowledge. 
             </p>
           </div>
         </li>
@@ -104,7 +104,7 @@ export const Projects = () => {
               </div>
             </div>
             <p>
-              Social media platform management and general product handling for a rising fintech startup in Africa.
+              Social media platform management and general product handling for a fintech startup. Engaging premium design.
             </p>
           </div>
         </li>

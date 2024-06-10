@@ -67,6 +67,7 @@
 @media screen and (max-width: 800px) {
     .testimonials{
         padding: 0 40px;
+        margin-top: 2px;
     }
     .next-btn, .back-btn{
         padding: 10px;

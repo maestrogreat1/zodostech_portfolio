@@ -105,8 +105,8 @@
 }
 
 .historyItemDetails h3 {
-  font-size: 25px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .historyItemDetails {
@@ -116,10 +116,11 @@
 .historyItemDetails ul {
     margin-top: 6px;
     list-style-position: inside;
-    font-size: 20px;
+    font-size: 16px;
     list-style-type: none;
     margin-left: 17px;
     list-style-type: none;
+    color: #676767;
 }
 
 @media screen and (max-width: 800px) {
@@ -158,10 +159,12 @@
       
     }
     .historyItemDetails h3 {
-      font-size: 20px;
-      font-weight: 300;
+      font-size: 16px;
+      font-weight: 600;
     }
     .historyItemDetails ul{
-      font-size: 15px;
+      font-size: 13px;
+      color: #676767;
     }
+    
 }
