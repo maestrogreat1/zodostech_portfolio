@@ -6,10 +6,10 @@ import styles from "./Projects.module.css"
 import './Projects.css'
 import next_icon from '../../image/next-icon.png'
 import back_icon from '../../image/back-icon.png'
-import user_1 from '../../image/user-1.png'
-import user_2 from '../../image/user-2.png'
-import user_3 from '../../image/user-3.png'
-import user_4 from '../../image/user-4.png'
+import user_1 from '../../image/gynbudlog.jpg'
+import user_2 from '../../image/elim.png'
+import user_3 from '../../image/intell.jpg'
+import user_4 from '../../image/mullog.jpg'
 
 // export const Projects = () => {
 
@@ -57,12 +57,12 @@ export const Projects = () => {
             <div className="user-info">
               <img src={user_1} alt="" />
               <div>
-                <h3>Ria Khan</h3>
-                <span>XpressTokens UK</span>
+                <h3><a href="">GymBud App</a></h3>
+                <span>Germany EU</span>
               </div>
             </div>
             <p>
-              Choosing to enhance digital horizons with this firm has been my best decison yet.
+              A simple app built for the purpose of connecting gym/fitness enthusiasts within the same location.
             </p>
           </div>
         </li>
@@ -71,12 +71,12 @@ export const Projects = () => {
             <div className="user-info">
               <img src={user_2} alt="" />
               <div>
-                <h3>Will Putt</h3>
-                <span>Flysafe, UAE</span>
+                <h3><a href="https://www.e-limu.org/">Elimu Website</a></h3>
+                <span>Lagos, Nigeria</span>
               </div>
             </div>
             <p>
-              They have great customer service and real-time access to every request I need.
+              This is a simple kiddies learning app, to build cognitive thinking on a variety of fields spanning from arithmetics to social building curriculum.
             </p>
           </div>
         </li>
@@ -85,12 +85,12 @@ export const Projects = () => {
             <div className="user-info">
               <img src={user_3} alt="" />
               <div>
-                <h3>Chris Hunt</h3>
-                <span>Luxberry, SA</span>
+                <h3><a href="Intelligentsiatalk.com">Intelligentsia Talk</a></h3>
+                <span>London, UK</span>
               </div>
             </div>
             <p>
-              I can say for certain that Zodo's Tech is a one stop shop for all my software needs. 
+              A vast community of deep thinkers, interested in growth and building humane values and consistently seeking more knowledge. 
             </p>
           </div>
         </li>
@@ -99,12 +99,12 @@ export const Projects = () => {
             <div className="user-info">
               <img src={user_4} alt="" />
               <div>
-                <h3>Juan Lyon</h3>
-                <span>Pines, USA</span>
+                <h3><a href="https://www.instagram.com/mustmultiply?igsh=cHI0MDl2OGIyejI1&utm_source=qr">Must Mulitply</a></h3>
+                <span>Lagos, Nigeria</span>
               </div>
             </div>
             <p>
-              The design and innovation approach is nothing but the best I have ever seen, cheers!
+              Social media platform management and general product handling for a rising fintech startup in Africa.
             </p>
           </div>
         </li>

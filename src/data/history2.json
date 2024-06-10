@@ -6,14 +6,7 @@
       "endDate": "Present",
       "experiences": ["We  give value to our users, using advanced methods to ensure excellent user experience."],
       "imageSrc": "history/ux.png"
-    },
-    {
-      "role": "High Performance",
-      "organisation": "& Quality Output",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["We mitigate the diffrences between native and hybrid environments using cross-platform development that is cutting-edge and user friendly."],
-      "imageSrc": "history/bar-chart.png"
     }
+    
   ]
   

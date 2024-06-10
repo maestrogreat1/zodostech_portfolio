@@ -44,7 +44,10 @@ a{
   padding-right: 10%;
 }
 
-
+.btn.dark-btn {
+  background: #212EA0;
+  color: #fff;
+}
 
 @media screen and (max-width: 1200px) {
   .container{

@@ -13,11 +13,11 @@ function App() {
       <Navbar />
       <Hero />
       <div className="container">
-      <Title subTitle="About Us" title="Get involved with us" />
+        <Title subTitle="About Us" title="Get involved with us" />
         <About />
         <Title subTitle="Experience" title="What we offer you" />
         <Experience />
-        <Title subTitle="Testimonials" title="What our clients say" />
+        <Title subTitle="Projects" title="Some of our work" />
         <Projects />
         <Title subTitle="Contact Us" title="Get in touch" />
         <Contact />

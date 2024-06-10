@@ -4,16 +4,9 @@
       "organisation": "Product Delivery",
       "startDate": "Sept, 2022",
       "endDate": "Present",
-      "experiences": ["Through our unique Continuous Discovery, we ensure to constantly evaluate user needs."],
+      "experiences": ["Through our unique Continuous Discovery, we ensure to constantly evaluate user needs in rapid time fashion."],
       "imageSrc": "history/delivery.png"
-    },
-    {
-      "role": "Expert and",
-      "organisation": "Timely Execution",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["We use advanced predictability and performance frameworks to help you achieve your development milestones in record time."],
-      "imageSrc": "history/clock.png"
     }
+
   ]
   
