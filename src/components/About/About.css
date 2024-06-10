@@ -1,12 +1,12 @@
 .about {
-  margin: 80px auto;
+  margin: 100px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 90%;
   background-color: rgba(252, 244, 244, 0.3);
   border-radius: 15px;
-  padding: 73px;
+  /* padding: 73px; */
   /* position: relative;
   background-color: rgba(252, 244, 244, 0.3);
   border-radius: 15px;
@@ -73,14 +73,33 @@
 @media screen and (max-width: 800px) {
   .about {
     flex-direction: column;
-    padding: 60px;
+    /* padding: 5px;
+    margin-top: 5px; */
+    margin-top: 2px;
   }
   .about-left {
     flex-basis: 100%;
     margin: 20px;
     display: none;
   }
+  .about p{
+    font-size: 13px;
+  }
   .about-right {
     flex-basis: 100%;
+    padding: 0;
+    margin: 2px;
+    margin-top: 5px;
+
+  }
+  /* .aboutItem{
+    display: block;
+  } */
+
+  .abs{
+    width: 30px;
+    border: 2px solid rgba(0, 206, 158, 1);
+    border-radius: 100%;
+    margin-right: 10px;
   }
 }

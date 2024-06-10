@@ -1,5 +1,9 @@
 import React from "react";
 import { getImageUrl } from "../../utils,js";
+import image_1 from '../../image/cursorIcon.png'
+import image_2 from '../../image/uiIcon.png'
+import image_3 from '../../image/serverIcon.png'
+import image_4 from '../../image/cart.png'
 
 import './About.css'
 import about_img from '../../image/aboutImage.jpg'
@@ -57,25 +61,25 @@ const About = () => {
     <div className="about-right">
     <ul className="aboutItems">
         <li className="aboutItem">
-            <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
+            <img src={image_1} alt="cursor icon" className="abs"/>
             <div className="aboutItemText">
                 <h3>Fullstack Development</h3>
                 <p>
-                    At ZodosTech Solutions, we specialize in developing customized software and web applications, implementing robust IT infrastructure.
+                    We specialize in developing customized software and web applications, implementing robust IT infrastructure.
                 </p>
             </div>
         </li>
         <li className="aboutItem">
-            <img src={getImageUrl("about/uiIcon.png")} alt="server icon" />
+            <img src={image_2} alt="server icon" className="abs"/>
             <div className="aboutItemText">
                 <h3>Cloud Computing</h3>
                 <p>
-                    From cloud computing and data analytics to network security and digital transformation, we offer a full spectrum of services designed to address the complex challenges facing modern businesses. 
+                    From cloud computing & data analytics to network security and digital transformation, we offer a full spectrum of services design. 
                 </p>
             </div>
         </li>
         <li className="aboutItem">
-            <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
+            <img src={image_3} alt="UI icon" className="abs"/>
             <div className="aboutItemText">
                 <h3>Mobile App Development</h3>
                 <p>
@@ -84,7 +88,7 @@ const About = () => {
             </div>
         </li>
         <li className="aboutItem">
-            <img src={getImageUrl("about/cart.png")} alt="UI icon" />
+            <img src={image_4} alt="UI icon" className="abs"/>
             <div className="aboutItemText">
                 <h3>SEO and Digital Marketing Services</h3>
                 <p>
