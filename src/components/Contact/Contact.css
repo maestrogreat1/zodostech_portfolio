@@ -86,6 +86,7 @@ input[type="submit"] {
 @media screen and (max-width: 700px) {
     .contact{
         display: block;
+        margin-top: 2px;
     }
     .contact-col{
         padding: 20px;
