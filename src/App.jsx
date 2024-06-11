@@ -13,13 +13,13 @@ function App() {
       <Navbar />
       <Hero />
       <div className="container">
-        <Title subTitle="About Us" title="Get involved with us" />
+        <Title subTitle="Full digital transformations" title="starts with Zodo'sTech" />
         <About />
-        <Title subTitle="Experience" title="What we offer you" />
+        <Title subTitle="Premium experience" title="to expedite excellent results" />
         <Experience />
-        <Title subTitle="Projects" title="Some of our work" />
+        <Title subTitle="A galleria of some of" title=" our partners and clients" />
         <Projects />
-        <Title subTitle="Contact Us" title="Get in touch" />
+        <Title subTitle="Let us talk about" title="getting you digital in real time" />
         <Contact />
       </div>
     </div>

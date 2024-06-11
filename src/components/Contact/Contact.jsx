@@ -2,12 +2,12 @@
 import React, { useRef } from "react";
 import emailjs, { send } from "@emailjs/browser";
 
-import { getImageUrl } from "../../utils,js";
+// import { getImageUrl } from "../../utils,js";
 import "./Contact.css";
-import msg_icon from "../../image/msg-icon.png";
-import mail_icon from "../../image/mail-icon.png";
-import phone_icon from "../../image/phone-icon.png";
-import location_icon from "../../image/location-icon.png";
+// import msg_icon from "../../image/msg-icon.png";
+// import mail_icon from "../../image/mail-icon.png";
+// import phone_icon from "../../image/phone-icon.png";
+// import location_icon from "../../image/location-icon.png";
 
 export const Contact = () => {
   const form = useRef();
@@ -32,55 +32,71 @@ export const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-col">
-        <h3>
-          Send us a message <img src={msg_icon} alt="" />
-        </h3>
-        <p>
-          Feel free to reach out through our contact form or find our contact
-          information below. Your feedback, questions and suggestions are
-          important to us as we strive to provide exceptional service to our
-          clients.
-        </p>
+        <h3>Send us a message <br/> Our experts will be in touch</h3>
+        {/* <p>Our experts will be in touch</p> */}
         <ul>
-          <li>
+          {/* <li>
             <img src={mail_icon} alt="" /> Contact@zodostech.com
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <img src={phone_icon} alt="" /> +1 123-456-7890
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <img src={location_icon} alt="" /> Mulliner Towers, Alfred Rewane,
             Ikoyi
             <br /> LA 10102, Nigeria
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="contact-col">
         <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input
-            type="text"
-            name="user_name"
-            placeholder="Enter your name"
-            required
-          />
-          <label>Email</label>
-          <input
-            type="email"
-            name="user_email"
-            placeholder="Enter your email address"
-            required
-          />
-          <label>Message</label>
-          <textarea
-            name="message"
-            placeholder="Tell us your requests"
-            required
-          />
-          <button type="submit" value={send} className="btn dark-btn">
-          {/* <input type="submit" value="Send"/> */}
-          Submit now
-          </button>
+          <div className="input-name">
+            <label>First Name</label>
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Enter your first name"
+              required
+            />
+            <span>
+              <label>Email</label>
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Enter your email address"
+                required
+              />
+              <label>Country</label>
+              <input
+                type="country"
+                name="user_location"
+                placeholder="Enter your Country"
+                required
+              />
+              <label>Your Interests</label>
+              <select name="interests" required>
+                <option>Select your interests</option>
+                <option>Web Development</option>
+                <option>cloud computing</option>
+                <option>mobile app development</option>
+                <option>SEO & digital marketing</option>
+              </select>
+              <button type="submit" value={send} className="btn dark-btn">
+                {/* <input type="submit" value="Send"/> */}
+                Submit
+              </button>
+            </span>
+          </div>
+
+          <div className="input-name">
+            <label>Last Name</label>
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
         </form>
       </div>
     </div>

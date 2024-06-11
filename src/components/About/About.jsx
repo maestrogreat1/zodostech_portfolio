@@ -1,12 +1,16 @@
 import React from "react";
 import { getImageUrl } from "../../utils,js";
-import image_1 from '../../image/cursorIcon.png'
-import image_2 from '../../image/uiIcon.png'
-import image_3 from '../../image/serverIcon.png'
-import image_4 from '../../image/cart.png'
+import image_1 from "../../image/cursorIcon.png";
+import image_2 from "../../image/uiIcon.png";
+import image_3 from "../../image/serverIcon.png";
+import image_4 from "../../image/cart.png";
+import about_1 from "../../image/webdev.png";
+import about_2 from "../../image/cloud.png";
+import about_3 from "../../image/appdev.png";
+import about_4 from "../../image/seo.png";
 
-import './About.css'
-import about_img from '../../image/aboutImage.jpg'
+import "./About.css";
+import about_img from "../../image/aboutImage.jpg";
 
 const About = () => {
   return (
@@ -28,7 +32,7 @@ const About = () => {
     //         <div className={styles.aboutItemtext}>
     //             <h3>Cloud Computing</h3>
     //             <p>
-    //                 From cloud computing and data analytics to network security and digital transformation, we offer a full spectrum of services designed to address the complex challenges facing modern businesses. 
+    //                 From cloud computing and data analytics to network security and digital transformation, we offer a full spectrum of services designed to address the complex challenges facing modern businesses.
     //             </p>
     //         </div>
     //     </li>
@@ -46,7 +50,7 @@ const About = () => {
     //         <div className={styles.aboutItemtext}>
     //             <h3>SEO and Digital Marketing Services</h3>
     //             <p>
-    //                Take advantage of our premuim SEO services and get your business on the map in rapid time. 
+    //                Take advantage of our premuim SEO services and get your business on the map in rapid time.
     //             </p>
     //         </div>
     //     </li>
@@ -54,11 +58,35 @@ const About = () => {
     //   </div>
     // </section>
 
-    <div className='about'>
-    <div className="about-left">
+    <div className="about">
+      <div className="aboutItems">
+        <img src={about_1} alt="" />
+        <div className="caption">
+          <p>Fullstack Development</p>
+        </div>
+      </div>
+      <div className="aboutItems">
+        <img src={about_2} alt="" />
+        <div className="caption">
+          <p>Cloud Computing</p>
+        </div>
+      </div>
+      <div className="aboutItems">
+        <img src={about_3} alt="" />
+        <div className="caption">
+          <p>Mobile App Development</p>
+        </div>
+      </div>
+      <div className="aboutItems">
+        <img src={about_4} alt="" />
+        <div className="caption">
+          <p>SEO and Digital Marketing</p>
+        </div>
+      </div>
+      {/* <div className="about-left">
       <img src={about_img} alt="" className='about_img'/>
-    </div>
-    <div className="about-right">
+    </div> */}
+      {/* <div className="about-right">
     <ul className="aboutItems">
         <li className="aboutItem">
             <img src={image_1} alt="cursor icon" className="abs"/>
@@ -96,15 +124,15 @@ const About = () => {
                 </p>
             </div>
         </li>
-      </ul>
-        
+      </ul> */}
+
       {/* <h3>ABOUT BERRY.CO</h3>
       <h2>Nuturing the Future Today</h2>
       <p>Embark on a transfromative business journey with our company's comprehensive business modules. Our cutting-edge packages is designed to empower businesses with the resources, skills and experince needed to excel in the dynamic business world.</p>
       <p>With a focus on innovation, hands-on practice and personalised services, our modules prepare both veteran and aspiring business persons to make an impact around the globe.</p>
       <p>Wether you aspire to be an entrepreneur, administrator, analyst, consultant or business trainer, our diverse range of modules offers you the perfect pathway to achieve your goals and unlock your full potential in shaping your future now.</p> */}
     </div>
-  </div>
+    //   </div>
   );
 };
 

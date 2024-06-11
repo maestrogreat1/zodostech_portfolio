@@ -31,10 +31,10 @@ export const Experience = () => {
           {history.map((historyItem, id) => {
             return (
               <li key={id} className={styles.historyItem}>
-                <img
+                {/* <img
                   src={getImageUrl(historyItem.imageSrc)}
                   alt={`${historyItem.organisation} logo`}
-                />
+                /> */}
                 <div className={styles.historyItemDetails}>
                   <h3>{`${historyItem.role} ${historyItem.organisation}`}</h3>
                   {/* <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p> */}
@@ -52,10 +52,10 @@ export const Experience = () => {
           {history2.map((historyItem, id) => {
             return (
               <li key={id} className={styles.historyItem}>
-                <img
+                {/* <img
                   src={getImageUrl(historyItem.imageSrc)}
                   alt={`${historyItem.organisation} logo`}
-                />
+                /> */}
                 <div className={styles.historyItemDetails}>
                   <h3>{`${historyItem.role} ${historyItem.organisation}`}</h3>
                   {/* <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p> */}
@@ -73,10 +73,10 @@ export const Experience = () => {
           {history3.map((historyItem, id) => {
             return (
               <li key={id} className={styles.historyItem}>
-                <img
+                {/* <img
                   src={getImageUrl(historyItem.imageSrc)}
                   alt={`${historyItem.organisation} logo`}
-                />
+                /> */}
                 <div className={styles.historyItemDetails}>
                   <h3>{`${historyItem.role} ${historyItem.organisation}`}</h3>
                   {/* <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p> */}
@@ -94,10 +94,10 @@ export const Experience = () => {
           {history4.map((historyItem, id) => {
             return (
               <li key={id} className={styles.historyItem}>
-                <img
+                {/* <img
                   src={getImageUrl(historyItem.imageSrc)}
                   alt={`${historyItem.organisation} logo`}
-                />
+                /> */}
                 <div className={styles.historyItemDetails}>
                   <h3>{`${historyItem.role} ${historyItem.organisation}`}</h3>
                   {/* <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p> */}
