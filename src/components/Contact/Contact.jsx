@@ -59,7 +59,7 @@ export const Contact = () => {
               name="user_name"
               placeholder="Enter your first name"
               required
-              max={40}
+              maxLength={40}
             />
 
             <label>Last Name</label>
@@ -79,6 +79,7 @@ export const Contact = () => {
               name="user_email"
               placeholder="Enter your email address"
               required
+              maxLength={62}
             />
             <label>Country</label>
             <input
@@ -86,6 +87,7 @@ export const Contact = () => {
               name="user_location"
               placeholder="Enter your Country"
               required
+              maxLength={45}
             />
             <label>Your Interests</label>
             <select name="interests" required>

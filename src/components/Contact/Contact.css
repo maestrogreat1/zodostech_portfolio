@@ -55,14 +55,14 @@
 
 .contact form {
     box-shadow: 0 0 20px rgba(0,0,0,0.25);
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
     /* display: flex; */
     /* margin-right: 270px; */
     width: 100%;
     /* justify-content: center; */
     background: white;
-    height: 800px;
+    height: 700px;
     padding-top: 30px;
     margin-top: -5%;
     margin-left: -10%;
@@ -147,6 +147,7 @@ input[type="submit"] {
         justify-content: center;
         height: 700px;
         margin-left: -1%;
+        margin-top: -10%;
     }
     .input-name{
         flex-direction: column;
