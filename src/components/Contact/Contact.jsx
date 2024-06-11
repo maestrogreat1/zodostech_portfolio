@@ -32,7 +32,9 @@ export const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-col">
-        <h3>Send us a message <br/> Our experts will be in touch</h3>
+        <h3>
+          Send us a message <br /> Our experts will be in touch
+        </h3>
         {/* <p>Our experts will be in touch</p> */}
         <ul>
           {/* <li>
@@ -57,46 +59,47 @@ export const Contact = () => {
               name="user_name"
               placeholder="Enter your first name"
               required
+              max={40}
             />
-            <span>
-              <label>Email</label>
-              <input
-                type="email"
-                name="user_email"
-                placeholder="Enter your email address"
-                required
-              />
-              <label>Country</label>
-              <input
-                type="country"
-                name="user_location"
-                placeholder="Enter your Country"
-                required
-              />
-              <label>Your Interests</label>
-              <select name="interests" required>
-                <option>Select your interests</option>
-                <option>Web Development</option>
-                <option>cloud computing</option>
-                <option>mobile app development</option>
-                <option>SEO & digital marketing</option>
-              </select>
-              <button type="submit" value={send} className="btn dark-btn">
-                {/* <input type="submit" value="Send"/> */}
-                Submit
-              </button>
-            </span>
-          </div>
 
-          <div className="input-name">
             <label>Last Name</label>
             <input
               type="text"
               name="user_name"
               placeholder="Enter your last name"
               required
+              maxLength={40}
             />
           </div>
+
+          <span>
+            <label>Email</label>
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Enter your email address"
+              required
+            />
+            <label>Country</label>
+            <input
+              type="country"
+              name="user_location"
+              placeholder="Enter your Country"
+              required
+            />
+            <label>Your Interests</label>
+            <select name="interests" required>
+              <option>Select your interests</option>
+              <option>Web Development</option>
+              <option>cloud computing</option>
+              <option>mobile app development</option>
+              <option>SEO & digital marketing</option>
+            </select>
+            <button type="submit" value={send} className="btn dark-btn">
+              {/* <input type="submit" value="Send"/> */}
+              Submit
+            </button>
+          </span>
         </form>
       </div>
     </div>

@@ -29,10 +29,10 @@
     justify-content: center;
 }
 
-.contact-col h3 img {
+/* .contact-col h3 img {
     width: 35px;
     margin-left: 10px;
-}
+} */
 
 /* .contact-col p {
     max-width: 450px;
@@ -43,32 +43,30 @@
     color: #fff;
 } */
 
-.contact-col ul li {
+/* .contact-col ul li {
     list-style: none;
     display: flex;
     align-items: center;
     margin: 20px 0;
     color: #fff;
     padding-left: 50px;
-}
+} */
 
-.contact-col ul li img {
-    width: 25px;
-    margin-right: 10px;
-}
 
 .contact form {
     box-shadow: 0 0 20px rgba(0,0,0,0.25);
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
-    display: flex;
-    margin-right: 30%;
+    /* display: flex; */
+    /* margin-right: 270px; */
     width: 100%;
-    justify-content: center;
+    /* justify-content: center; */
     background: white;
-    height: 600px;
+    height: 800px;
     padding-top: 30px;
     margin-top: -5%;
+    margin-left: -10%;
+    padding-top: 70px;
 }
 
 .contact form label {
@@ -77,8 +75,20 @@
 }
 
 .input-name {
-    margin-left: 50px;
-    color: black;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.input-name label{
+    border: 1px solid #212EA0;
+    border-radius: 100px;
+    padding: 10px;
 }
 
 /* .contact-col1 {
@@ -97,6 +107,7 @@
     margin-top: 5px;
     resize: none;
     border-bottom: 1px solid #212EA0;
+    font-size: 16px;
 }
 /* 
 .contact-col span {
@@ -125,14 +136,27 @@ input[type="submit"] {
 @media screen and (max-width: 700px) {
     .contact{
         display: block;
-        margin-top: 2px;
+        /* margin-top: 2px; */
     }
     .contact-col{
         padding: 20px;
     }
     .contact form{
-        padding-top: 10px;
-        margin-top: 2px;
-        height: 460px;
+        /* margin-right: 20%; */
+        display: block;
+        justify-content: center;
+        height: 700px;
+        margin-left: -1%;
     }
+    .input-name{
+        flex-direction: column;
+        justify-content: flex-start;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .input-name label{
+        border: none;
+    }
+
 }
