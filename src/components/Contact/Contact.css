@@ -8,7 +8,6 @@
     background-size: cover;
     background-position: center;
     color: white;
-    height: 60vh;
 }
 
 .contact-col {
@@ -62,34 +61,35 @@
     width: 100%;
     /* justify-content: center; */
     background: white;
-    height: 700px;
+    /* height: 700px;
     padding-top: 30px;
     margin-top: -5%;
     margin-left: -10%;
-    padding-top: 70px;
+    padding-top: 70px; */
+    margin-top: -5%;
 }
 
-.contact form label {
+/* .contact form label {
     font-size: 16px;
     color: #212EA0;
-}
+} */
 
-.input-name {
+/* .input-name { */
     /* background: red; */
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     gap: 10px;
     align-items: flex-start;
     width: 100%;
     margin-bottom: 20px;
     
-}
+} */
 
-.input-name label{
+/* .input-name label{
     border: 1px solid #212EA0;
     border-radius: 100px;
     padding: 10px;
-}
+} */
 
 /* .contact-col1 {
     width: 80%;
@@ -141,9 +141,9 @@ input[type="submit"] {
     .contact-col{
         padding: 20px;
     }
-    .contact form{
+    /* .contact form{ */
         /* margin-right: 20%; */
-        display: block;
+        /* display: block;
         justify-content: center;
         height: 700px;
         margin-left: -1%;
@@ -158,6 +158,6 @@ input[type="submit"] {
 
     .input-name label{
         border: none;
-    }
+    } */
 
 }

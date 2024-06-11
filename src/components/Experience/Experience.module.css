@@ -105,8 +105,8 @@
 }
 
 .historyItemDetails h3 {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .historyItemDetails {
@@ -160,7 +160,7 @@
     }
     .historyItemDetails h3 {
       font-size: 16px;
-      font-weight: 600;
+      font-weight: normal;
     }
     .historyItemDetails ul{
       font-size: 13px;
