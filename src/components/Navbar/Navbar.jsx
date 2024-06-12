@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.css";
 import logo from '../../image/finallog.png'
 import { Link } from "react-scroll";
@@ -18,8 +18,27 @@ const Navbar = () => {
     mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
   };
 
+  let menuRef = useRef(false);
+
+  useEffect(()=>{
+    let handler = (e)=>{
+      if(!menuRef.current.contains(e.target)){
+        setMobileMenu(false);
+      }
+      
+    };
+
+    document.addEventListener("mousedown", handler);
+
+    return() =>{
+      document.removeEventListener("mousedown", handler)
+    }
+  })
+
+  
+
   return (
-    <nav className={`container ${sticky ? "dark-nav" : ""}`}>
+    <nav className={`container ${sticky ? "dark-nav" : ""}`} ref={menuRef}>
       <img src={logo} alt="" className="logo" />
       <ul className={mobileMenu?'':'hide-mobile-menu'}>
       <li>

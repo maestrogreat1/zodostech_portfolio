@@ -1,3 +1,4 @@
+import { useState } from "react";
 import styles from "./App.module.css";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
@@ -8,6 +9,9 @@ import Projects from "./components/Projects/Testimonials";
 import Title from "./components/Title/Title";
 
 function App() {
+
+  
+  
   return (
     <div className={styles.App}>
       <Navbar />
