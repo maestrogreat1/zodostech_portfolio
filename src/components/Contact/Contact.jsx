@@ -90,13 +90,13 @@ export const Contact = () => {
               maxLength={45}
             />
             <label>Your Interests</label>
-            <select name="interests" required>
-              <option>Select your interests</option>
-              <option>Web Development</option>
-              <option>cloud computing</option>
-              <option>mobile app development</option>
-              <option>SEO & digital marketing</option>
-            </select>
+            <textarea
+              name="message"
+              rows={6}
+              placeholder="Enter your message"
+              required
+            ></textarea>
+
             <button type="submit" value={send} className="btn dark-btn">
               {/* <input type="submit" value="Send"/> */}
               Submit
